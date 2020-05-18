@@ -1,4 +1,4 @@
-FROM docker.io/alpine@sha256:b276d875eeed9c7d3f1cfa7edb06b22ed22b14219a7d67c52c56612330348239
+FROM docker.io/alpine@sha256:39eda93d15866957feaee28f8fc5adb545276a64147445c64992ef69804dbf01
 
 RUN apk update --no-cache && \
     apk add --no-cache build-base python3 python3-dev openssl openssl-dev libffi-dev gdb \
